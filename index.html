@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Drop Down</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--<script src="scripts.js"></script>-->
+
+</head>
+<body>
+    <!--below div is for showing ttext like-->
+    <div class="main">
+        <h4 id="heading">Specification Viewer</h4>
+    </div>
+
+    <!--below div is for drop down box-->
+    <div class="dropdown_box">
+        <!--<label id = 'drop_label'for="cars">Select Your Model</label>-->
+        <select name="laptops_drop" id="laptops" onclick="select_fun()">
+            <div class="option_list">
+                <option class="option_list" value="">Select a Laptop</option>
+                <option class="option_list" value="Apple">Apple</option>
+                <option class="option_list" value="Lenovo">Lenovo</option>
+                <option class="option_list" value="Hp">Hp</option>
+                <option class="option_list"value="Dell">Dell</option>
+            </div>
+        </select>
+
+    </div>
+    <div class="content_box">
+        <div class="gradient-border">
+            <!--here we will have main content-->
+            <div class="content_box1">
+                <h4 id="show_content">Please Select From DropDown</h4>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
